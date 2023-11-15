@@ -5,6 +5,7 @@ Ghost's best average over 100,000,000 games is 45.277 turns.
 
 #### How It Works
 Ghost creates a probability grid by looping through each square, and does the following things:
+
     1. Check what boats are alive.
     2. Fill out the probability grid based on a few factors:
         2a. Number of X's in the row.
@@ -16,6 +17,7 @@ Ghost creates a probability grid by looping through each square, and does the fo
         3a. If there are two equal squares, pick the one more likely to hold a smaller boat.
 
 #### How To Use It
+
 1. Download `BattleShipTools.java`, `RunSimulation.java`, and `Ghost.java`.
 2. Compile with `javac .\RunSimulation.java`.
 3. Run with `java RunSimulation`
