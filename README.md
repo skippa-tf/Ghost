@@ -26,5 +26,5 @@ To change the amount of simulations change line 15 in `RunSimulation.java`.
   I would recommend to turn off showAll in `RunSimulation.java` for anything more than 1 run.
 To view the probability grid, enable debugging on line 54 in `Ghost.java`.
 
-##### Remember to recompile every change.
+#### Remember to recompile every change.
 
