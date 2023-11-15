@@ -1,7 +1,7 @@
 # Ghost
 
 ## Overview
-Ghost is my battleship AI that I created for a school project. It uses a probability map to calculate ship locations. 
+Ghost is my battleship AI that I created for a school project in my first semester. It uses a probability map to calculate ship locations. 
 Ghost's best average over 100,000,000 games is **45.277 turns**.
 
 ## How It Works
@@ -34,4 +34,4 @@ Ensure you have Java installed on your system to compile and run the simulation.
 - For debugging and viewing the probability grid, enable the debugging mode on line 54 in `Ghost.java`.
 
 ### Note
-Remember to recompile (`javac .\RunSimulation.java`) every time you make changes to the source files.
+Remember to recompile with `javac .\RunSimulation.java` every time you make changes to the source files.
