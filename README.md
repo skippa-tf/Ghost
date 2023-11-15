@@ -2,7 +2,7 @@
 
 ## Overview
 Ghost is my battleship AI that I created for a school project. It uses a probability map to calculate ship locations. 
-Ghost's best average over 100,000,000 games is 45.277 turns.
+Ghost's best average over 100,000,000 games is **45.277 turns**.
 
 ## How It Works
 Ghost operates by creating a probability grid. It loops through each square on the grid and performs the following actions:
