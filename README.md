@@ -35,6 +35,7 @@ Ensure you have Java installed on your system to compile and run the simulation.
 
 ### Note
 Remember to recompile with `javac .\RunSimulation.java` every time you make changes to the source files.
+`RunSimulation.java` and `BattleShipTools.java` were not written by me, they were provided by my professor.
 
 
 ### Things I Learned 
