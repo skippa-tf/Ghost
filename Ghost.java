@@ -135,7 +135,7 @@ public class Ghost {
             probability -= 1;
         }
 
-		return probability + directionScore(row, col, guesses, boatsAlive);
+	return probability + directionScore(row, col, guesses, boatsAlive);
 	}
 
     /**
@@ -170,13 +170,13 @@ public class Ghost {
 				if (up == 1 && (row - i < 0 || (guesses[row - i][col] != '.' && guesses[row - i][col] != 'X'))) { // Check north
 					up--;
 				} 
-                if (right == 1 && (col + i >= 10 || (guesses[row][col + i] != '.' && guesses[row][col + i] != 'X'))) { // Check east
+                		if (right == 1 && (col + i >= 10 || (guesses[row][col + i] != '.' && guesses[row][col + i] != 'X'))) { // Check east
 					right--;
 				} 
-                if (down == 1 && (row + i >= 10 || (guesses[row + i][col] != '.' && guesses[row + i][col] != 'X'))) { // Check south
+                		if (down == 1 && (row + i >= 10 || (guesses[row + i][col] != '.' && guesses[row + i][col] != 'X'))) { // Check south
 					down--;
 				}
-                if (left == 1 && (col - i < 0 || (guesses[row][col - i] != '.' && guesses[row][col - i] != 'X'))) { // Check west
+               			if (left == 1 && (col - i < 0 || (guesses[row][col - i] != '.' && guesses[row][col - i] != 'X'))) { // Check west
 					left--;
 				}
 			}
