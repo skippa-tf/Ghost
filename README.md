@@ -35,3 +35,10 @@ Ensure you have Java installed on your system to compile and run the simulation.
 
 ### Note
 Remember to recompile with `javac .\RunSimulation.java` every time you make changes to the source files.
+
+
+### Things I Learned 
+- Improve my version control. Every version it would of been nice to include an average turn score for that commit.
+- Just because I could run the program in a single for loop, doesn't mean I should. Efficiency was not the objective. It took me too long to change my mindset about staying in a single loop, multiple loops allowed my program much more freedom and made it a lot smarter.
+- Write Javadocs while writing the program, not at the very end.
+- I need to figure out a system for tracking bugs, and potential improvements.
